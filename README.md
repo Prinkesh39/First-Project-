@@ -1,13 +1,13 @@
 # First-Project-
 
 
-Installations:
+Installations and Library used:
 
-This project needs python and it's libraries mainly Pandas, Numpy, Matplotlib, Seaborn and Scikit Learn
+This project needs python and it's libraries mainly Pandas, Numpy, Matplotlib, Seaborn and Scikit Learn which can be installed using terminal command pip install <library name> 
 
 Project Motivation:
 
-A data based approach towards predicting the default in repayment
+Being a finance personal working with a Bank, we face many challanges to not only add more customer for our credit business but also to ensure that our rate of defaults remain low. This project can help in indentify the correct demography which a company can target to grow their business. This is a data based approach towards predicting the default in repayment. This is a simple model but still shows a promising result. More features can be added in the data as well as better modern algorithims like Deep Learning may also be employed to achieve even more accuracy.
 
 File Descriptions:
 
@@ -47,9 +47,30 @@ How to Interact with the project:
 
 Jupyter notebook/COLAB can be used to download the python file and used for training the dataset. 
 
+Files in the repository:
+
+1). README.md
+2). Dataset of Taiwan Credit Card defaults 
+3). .py file consists of the actual analysis and model to predict the probability of default
+
 Technical Details:
 
 Logistic Regression and Random Forrest ensemble method is used for our model. Grid Search technique employed in both of our model.
+
+Summary:
+With this model we will mainly look into 3 important questions:
+
+1) How a customer's demography mainly Gender, Education and Marital Status effects the probability of default in repayment ?
+
+Inference: There is no definite relationship between the customer's Gender or Edcation level with the probability of their default
+
+2)Is there any relation between customer's age and the repayment habit of the customer?
+
+Inference: We can see that young customer's in their 20s and 30s are more prone to defaults.
+
+3)How accurately we can predict the default in repayment?
+
+Inference: Logistic Regression is a simple model with accuracy (~82%) matching to our Random Forrest model.
 
 Acknowledgements:
 
